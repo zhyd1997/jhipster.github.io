@@ -77,7 +77,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         {% if page.home == true %}
                         <li class="page-scroll">
-                            <a href="#learn">Learn</a>
+                            <a href="#learn">Test Netlify Preview Deployed Site</a>
                         </li>
                         <li class="page-scroll">
                             <a href="#sponsors">Sponsors</a>
@@ -546,7 +546,7 @@
     <script type="text/javascript" src="{{ site.url }}/js/users.js"></script>
     {% endif %}
     <script>
-    if (self !== top) {
+    if (self !== top && !window.location.origin.includes('netlify.app')) {
         window.top.location.href = "https://www.jhipster.tech";
     }
     </script>
