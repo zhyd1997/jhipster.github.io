@@ -28,7 +28,7 @@ JHipster provides three main security mechanisms:
 2. [Session-based authentication](#session)
 3. [OAuth 2.0 and OpenID Connect](#oauth2)
 
-<h2 id="jwt">JSON Web Tokens (JWT)</h2>
+<h2 id="jwt">JSON Web Tokens (JWT) Netlify</h2>
 
 [JSON Web Token (JWT)](https://jwt.io/) authentication is a stateless security mechanism, so it's a good option if you want to scale your application on several different servers.
 
