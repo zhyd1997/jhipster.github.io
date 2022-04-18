@@ -547,6 +547,7 @@
     {% endif %}
     <script>
     if (self !== top && !window.location.origin.includes('netlify.app')) {
+        alert(window.location.origin);
         window.top.location.href = "https://www.jhipster.tech";
     }
     </script>
